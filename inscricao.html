@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Halteres Seus Hábitos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Ubuntu:wght@400;700&display=swap">
+</head>
+<body>
+    <table>
+        <tr>
+            <td colspan="2"><img src="/Imagens/HalteresSeusHabitosTopo.png" alt="Halteres Seus Hábitos" class="imgLogo"></td>
+            <td colspan="2">
+                <address class="ender">
+                    Estrada do Puxa Ferro, 12<br>
+                    Tel: (21) 91234-5678<br>
+                    <a href="mailto:contato@halterhabit.com.br">contato@halterhabit.com.br</a>
+                </address>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"><hr class="linha"></td>
+        </tr>
+        
+        <tr>
+            <td width="20%">
+                <ul class="referencia" style="list-style-type:square;">
+                    <li><a href="HalteresSeusHabitos.html" target="_blank">Apresentação</a></li>
+                    <li ><a href="planos.html" target="_blank">Planos</a></li> 
+                    <li><a href="Equipamentos.html" target="_blank">Equipamentos</a></li>
+                    <li><a href="Inscricao.html" target="_blank">Inscrição</a></li>
+                </ul>
+            </td>
+            <td>
+                <div>
+                    <h2 class="matricula">Inscrição</h2>
+                    <div class="tabela-incricao">
+                        <form action="#">
+                            <fieldset>
+                                <legend>Dados Pessoais</legend>
+                                <label for="nome">Nome:</label>
+                                <input type="text" id="nome" name="nome"><br><br>
+                                
+                                <label for="telefone">Telefone:</label>
+                                <input type="text" id="telefone" name="telefone"><br><br>
+                                
+                                <label for="celular">Celular:</label>
+                                <input type="text" id="celular" name="celular"><br><br>
+                                
+                                <label for="idade">Idade:</label>
+                                <input type="number" id="idade" name="idade" value="18"><br><br>
+                                
+                                <fieldset>
+                                    <legend>Gênero:</legend><br>
+                                    <input type="radio" id="masculino" name="genero" value="masculino">
+                                    <label for="masculino">Masculino</label><br>
+                                    <input type="radio" id="feminino" name="genero" value="feminino">
+                                    <label for="feminino">Feminino</label><br>
+                                    <input type="radio" id="outro" name="genero" value="outro">
+                                    <label for="outro">Outro</label>
+                
+                                </fieldset>
+                            </fieldset>
+                            <fieldset>
+                                <legend>Matrícula</legend>
+                                <label for="matriculado">Matriculado?</label>
+                                <input type="checkbox" id="matriculado" name="matriculado"><br><br>
+                                
+                                <label for="numero">Número:</label>
+                                <input type="text" id="numero" name="numero"><br><br>
+                                
+                                <label for="atividade">Atividade:</label>
+                                <select id="atividade" name="atividade">
+                                    <option value="">----</option>
+                                    <option value="academia">Academia</option>
+                                    <option value="natacao">Natação</option>
+                                    <option value="combo">Combo</option>
+                                  
+                                </select><br><br>
+                                
+                                <label for="plano">Plano:</label>
+                                <select id="plano" name="plano">
+                                    <option value="">----</option>
+                                    <option value="anual">Anual</option>
+                                    <option value="natacao">Semestral</option>
+                                    <option value="">Mensal</option>
+                                </select><br><br>
+                                
+                                <fieldset>
+                                    <legend>Cartão</legend>
+                                    <label for="bandeira">Bandeira:</label>
+                                    <input type="radio" id="visa" name="bandeira" value="visa">
+                                    <label for="visa">Visa</label>
+                                    <input type="radio" id="master" name="bandeira" value="master">
+                                    <label for="master">Master</label>
+                                    <input type="radio" id="elo" name="bandeira" value="elo">
+                                    <label for="elo">Elo</label><br><br>
+                                    
+                                    <label for="validade">Validade:</label>
+                                    <input type="month" id="validade" name="validade" value="2024-10"><br><br>
+                                    
+                                    <label for="numero_cartao">Número:</label>
+                                    <input type="text" id="numero_cartao" name="numero_cartao">
+                                </fieldset>
+                            </fieldset>
+                            <button type="submit">Matrícula+Plano</button> Valor: R$ <input><br><br>
+                            <button type="submit">Enviar</button>
+                            <button type="reset">Limpar</button>
+                        </form>
+                          
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
