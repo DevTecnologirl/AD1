@@ -1,117 +1,327 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <title>Halteres Seus Hábitos</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Halteres Seus Hábitos - Inscrição</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Ubuntu:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Stoke:wght@400;700&display=swap">
+    <style>
+        body {
+            font-family: 'Karla', sans-serif;
+            background-color: #DDCC55;
+            color: #000000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        
+      .linha {
+    margin-left: 10px;
+    margin-top: -10px;
+}
+        
+        table {
+            width: 100%;
+            height: 100vh;
+            border-collapse: collapse;
+        }
+        
+        .ender {
+            text-align: right;
+            line-height: 140%;
+            font-size: 14px;
+            font-family: "Karla";
+        }
+        address {
+            font-style: normal;
+            font-family: "sans-serif";
+        }
+
+        hr {
+            width: 320px;
+            border: 1px solid #000000;
+            margin: 0 auto;
+        }
+        
+        .imgLogo {
+            border-radius: 3px;
+        }
+
+        
+        .formulario h2 {
+            text-align: center;
+        }
+        .formulario {
+            width: 400px;
+            padding: 20px;
+            align-items: center;
+            margin-top: 10px;
+            margin-bottom: 0;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #EEEEBB;
+            border: 3px solid #202020;
+            font-size: 12px;
+        }
+
+        fieldset {
+            margin-bottom: 15px;
+            border: 2px solid #202020;
+        }
+
+        fieldset legend {
+            padding: 0 5px;
+            font-weight: bold;
+        }
+
+        .fsPessoal {
+            width: 340px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .fsGenero {
+            float: right;
+            margin-top: 10px;
+            margin-right: 10px;
+        }
+
+        .fsCartao {
+            width: 280px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .linhaNome {
+            height: 30px;
+            width: 340px;
+            padding-top: 8px;
+        }
+
+        .linhaDados {
+            height: 130px;
+            width: 340px;
+        }
+
+        .ColDirMat {
+            float: right;
+        }
+
+        .ColEsqPes {
+            width: 70px;
+            text-align: left;
+            float: left;
+            display: block;
+        }
+        .num{
+            width: 70px;
+            text-align: right;
+        }
+
+        .ColLabCrd {
+            width: 270px;
+            height: 30px;
+            text-align: left;
+            float: left;
+        }
+
+        .ColValTot {
+            width: 220px;
+            text-align: left;
+            float: left;
+            display: block;
+        }
+
+        .entDireita {
+            float: right;
+            margin-right: 20px;
+        }
+
+        .inpNome {
+            width: 220px;
+        }
+
+        .numDD {
+            width: 35px;
+        }
+
+        .numQD {
+            width: 50px;
+        }
+
+        .inpNCC {
+            width: 130px;
+        }
+
+        .inpTelef {
+            width: 90px;
+        }
+
+        .inpMat {
+            width: 70px;
+        }
+
+        .inpVal {
+            width: 50px;
+        }
+
+        input,
+        select {
+            margin-bottom: 10px;
+        }
+
+        td {
+            vertical-align: top;
+            padding: 0;
+        }
+
+        a {
+            color: #222222;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: #222222;
+        }
+        .referencia {
+    padding: 1;
+}
+    </style>
 </head>
+
 <body>
     <table>
         <tr>
-            <td colspan="2"><img src="/Imagens/HalteresSeusHabitosTopo.png" alt="Halteres Seus Hábitos" class="imgLogo"></td>
+            <td colspan="2"><img src="/Imagens/HalteresSeusHabitosTopo.png" alt="Halteres Seus Hábitos" class="imgLogo">
+            </td>
             <td colspan="2">
-                <address class="ender">
+                <address class="ender" style="font-family: Karla; font-style: italic;">
                     Estrada do Puxa Ferro, 12<br>
                     Tel: (21) 91234-5678<br>
-                    <a href="mailto:contato@halterhabit.com.br">contato@halterhabit.com.br</a>
+                    <a href="mailto:contato@halterhabit.com.br"
+                        style="font-style: italic;">contato@halterhabit.com.br</a>
                 </address>
             </td>
         </tr>
         <tr>
-            <td colspan="2"><hr class="linha"></td>
+            <td colspan="2">
+                <hr class="linha">
+            </td>
         </tr>
-        
+
         <tr>
             <td width="20%">
-                <ul class="referencia" style="list-style-type:square;">
-                    <li><a href="HalteresSeusHabitos.html" target="_blank">Apresentação</a></li>
-                    <li ><a href="planos.html" target="_blank">Planos</a></li> 
-                    <li><a href="Equipamentos.html" target="_blank">Equipamentos</a></li>
-                    <li><a href="Inscricao.html" target="_blank">Inscrição</a></li>
-                </ul>
+                <ol class="referencia" style="list-style-type:square;">
+                    <li><a href="HalteresSeusHabitos.html" target="_blank" style="font-family: stoke">Apresentação</a></li>
+                    <li><a href="planos.html" target="_blank" style="font-family: stoke">Planos</a></li>
+                    <li><a href="Equipamentos.html" target="_blank" style="font-family: stoke">Equipamentos</a></li>
+                    <li><a href="Inscricao.html" target="_blank" style="font-family: stoke">Inscrição</a></li>
+                </ol>
             </td>
             <td>
-                <div>
-                    <h2 class="matricula">Inscrição</h2>
-                    <div class="tabela-incricao">
-                        <form action="#">
-                            <fieldset>
-                                <legend>Dados Pessoais</legend>
-                                <label for="nome">Nome:</label>
-                                <input type="text" id="nome" name="nome"><br><br>
-                                
-                                <label for="telefone">Telefone:</label>
-                                <input type="text" id="telefone" name="telefone"><br><br>
-                                
-                                <label for="celular">Celular:</label>
-                                <input type="text" id="celular" name="celular"><br><br>
-                                
-                                <label for="idade">Idade:</label>
-                                <input type="number" id="idade" name="idade" value="18"><br><br>
-                                
-                                <fieldset>
-                                    <legend>Gênero:</legend><br>
+                <h2 style="text-align: center;">Inscrição</h2>
+                <div class="formulario" style="font-family: stoke">
+                    <form action="#">
+                        <fieldset class="fsPessoal">
+                            <legend>Dados Pessoais</legend>
+                            <div class="linhaNome">
+                                <label for="nome" class="ColEsqPes">Nome:</label>
+                                <input type="text" id="nome" name="nome" class="inpNome">
+                            </div>
+                            <div class="linhaDados">
+                                <label for="telefone" class="ColEsqPes">Telefone:</label>
+                                <input type="text" id="telefone" name="telefone" class="inpTelef">
+
+                                <fieldset class="fsGenero">
+                                    <legend>Gênero</legend>
                                     <input type="radio" id="masculino" name="genero" value="masculino">
                                     <label for="masculino">Masculino</label><br>
                                     <input type="radio" id="feminino" name="genero" value="feminino">
                                     <label for="feminino">Feminino</label><br>
                                     <input type="radio" id="outro" name="genero" value="outro">
                                     <label for="outro">Outro</label>
-                
                                 </fieldset>
-                            </fieldset>
-                            <fieldset>
-                                <legend>Matrícula</legend>
-                                <label for="matriculado">Matriculado?</label>
-                                <input type="checkbox" id="matriculado" name="matriculado"><br><br>
-                                
-                                <label for="numero">Número:</label>
-                                <input type="text" id="numero" name="numero"><br><br>
-                                
-                                <label for="atividade">Atividade:</label>
-                                <select id="atividade" name="atividade">
-                                    <option value="">----</option>
-                                    <option value="academia">Academia</option>
-                                    <option value="natacao">Natação</option>
-                                    <option value="combo">Combo</option>
-                                  
-                                </select><br><br>
-                                
-                                <label for="plano">Plano:</label>
-                                <select id="plano" name="plano">
-                                    <option value="">----</option>
-                                    <option value="anual">Anual</option>
-                                    <option value="natacao">Semestral</option>
-                                    <option value="">Mensal</option>
-                                </select><br><br>
-                                
-                                <fieldset>
-                                    <legend>Cartão</legend>
+
+                                <label for="celular" class="ColEsqPes">Celular:</label>
+                                <input type="text" id="celular" name="celular" class="inpTelef">
+                                <br>
+                                <label for="idade" class="ColEsqPes">Idade:</label>
+                                <input type="number" id="idade" name="idade" value="18" class="numDD">
+                            </div>
+                        </fieldset>
+
+                        <fieldset class="fsPessoal">
+                            <legend>Matrícula</legend>
+                            <label for="matriculado">Matriculado?</label>
+                            <input type="checkbox" id="matriculado" name="matriculado">
+                           
+                            <label for="numero" class="num">Número:</label>
+                            <input type="text" id="numero" name="numero" class="inpMat">
+                            <br>
+                            <label for="atividade">Atividade:</label>
+                            <select id="atividade" name="atividade">
+                                <option value="">----</option>
+                                <option value="academia">Academia</option>
+                                <option value="natacao">Natação</option>
+                                <option value="combo">Combo</option>
+                            </select>
+                            
+                            <label for="plano">Plano:</label>
+                            <select id="plano" name="plano">
+                                <option value="">----</option>
+                                <option value="anual">Anual</option>
+                                <option value="semestral">Semestral</option>
+                                <option value="mensal">Mensal</option>
+                            </select>
+                            <br>
+                            <fieldset class="fsCartao">
+                                <legend>Cartão</legend>
+                                <div class="ColLabCrd">
                                     <label for="bandeira">Bandeira:</label>
                                     <input type="radio" id="visa" name="bandeira" value="visa">
                                     <label for="visa">Visa</label>
                                     <input type="radio" id="master" name="bandeira" value="master">
                                     <label for="master">Master</label>
                                     <input type="radio" id="elo" name="bandeira" value="elo">
-                                    <label for="elo">Elo</label><br><br>
-                                    
-                                    <label for="validade">Validade:</label>
-                                    <input type="month" id="validade" name="validade" value="2024-10"><br><br>
-                                    
-                                    <label for="numero_cartao">Número:</label>
-                                    <input type="text" id="numero_cartao" name="numero_cartao">
-                                </fieldset>
+                                    <label for="elo">Elo</label>
+                                </div>
+                                <br>
+                                <div class="ColLabCrd">
+                                    <label for="mes">Validade:</label>
+                                    <input type="number" id="mes" name="mes" min="1" max="12" placeholder="MM">
+                                /
+                                <input type="number" id="ano" name="ano" min="2023" max="2100" placeholder="AAAA">
+                                <p id="validadeFormatada"></p>
+                            </div>
+                            <br>
+                            <div class="ColLabCrd">
+                                    <label>Número:</label>
+                                    <input type="text" id="numero_cartao" name="numero_cartao" class="inpNCC">
+                                </div>
                             </fieldset>
-                            <button type="submit">Matrícula+Plano</button> Valor: R$ <input><br><br>
+                            <div class="entDireita">
+                                Valor: R$ <input type="text" name="valor" class="inpVal">
+                            </div>
+                            <div>
+                                <button>Matricula + Plano</button>
+                            </div>
+                        </fieldset>
+
+                        <div class="entDireita">
                             <button type="submit">Enviar</button>
                             <button type="reset">Limpar</button>
-                        </form>
-                          
-                    </div>
+                        </div>
+                    </form>
                 </div>
             </td>
         </tr>
     </table>
 </body>
+
 </html>

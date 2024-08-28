@@ -4,7 +4,135 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Equipamentos</title>
-    <link rel="stylesheet" href="style_habitos.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Ubuntu:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Stoke:wght@400;700&display=swap">
+<style>
+    body {
+    background-color: #DDCC55;
+    font-family: "Lucida Bright", Liberation, sans-serif;
+    color: #000000;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table {
+    width: 100%;
+    height: 100vh;
+    border-collapse: collapse;
+}
+
+td {
+    vertical-align: top;
+    padding: 0;
+}
+
+hr {
+    width: 320px;
+    border: 1px solid #000000;
+    margin: 0 auto;
+}
+.linha {
+    margin-left: 10px;
+    margin-top: -160px;
+}
+
+li {
+    font-family: "Verdana", "Ubuntu", sans-serif;
+    margin-bottom: 10px;
+}
+
+a {
+    color: #222222;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #222222;
+}
+
+.frase {
+    margin-right: 100px;
+}
+.ender {
+    text-align: right;
+    line-height: 140%;
+    font-size: 14px;
+    font-family: "Karla";
+}
+
+.ender, .referencia a {
+    font-family: 'Karla', 'Verdana', 'Ubuntu', sans-serif;
+}
+.imgLogo {
+border-radius: 3px;
+}
+
+.apres{
+    align-items: center;
+    font-size: 16px;
+}
+
+.tabEquip th, .tabEquip td {
+    border: 1px solid #000;
+    padding: 10px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.th.imgCel {
+    width: 30%;
+    height: 100%; 
+    text-align: center;
+}
+
+.tabEquip img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+.tabEquip {
+    border-collapse: separate;
+    border: 1px solid #000;
+    width: 40%;
+    margin-bottom: 10px;
+    font-size: 14px;
+    margin: -700px auto;
+    border-collapse: collapse;
+    background-color: #EEEEBB;
+    border: 2px solid #202020;
+}
+.tabEquip th, .tabEquip td {
+    border: 1px solid #000;
+    padding: 10px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.tabTitulo th {
+    background-color: #402020;
+    color: #FFFFFF;
+}
+
+.tabSubTit th {
+    background-color: #802020;
+    color: #FFFFFF;
+    align-items: center;
+    text-align: center;
+}
+
+.tabEquip img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Garante que a imagem cubra todo o espaço sem distorção */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+</style>
 </head>
 <body>
     <table class="topo">
@@ -14,53 +142,54 @@
                 <address class="ender">
                     Estrada do Puxa Ferro, 12<br>
                     Tel: (21) 91234-5678<br>
-                    <a href="mailto:contato@halterhabit.com.br">contato@halterhabit.com.br</a>
+                    <a href="mailto:contato@halterhabit.com.br" style="font-style: italic;">contato@halterhabit.com.br</a>
                 </address>
             </td>
         </tr>
+        
         <tr>
             <td colspan="2"><hr class="linha"></td>
         </tr>
         
         <tr>
             <td width="20%">
-                <ul class="referencia" style="list-style-type:square;">
-                    <li><a href="HalteresSeusHabitos.html" target="_blank">Apresentação</a></li>
-                    <li><a href="planos.html" target="_blank">Planos</a></li> 
-                    <li><a href="Equipamentos.html" target="_blank">Equipamentos</a></li>
-                    <li><a href="Inscricao.html" target="_blank">Inscrição</a></li>
-                </ul>
+                <ol class="referencia" style="list-style-type:square;">
+                    <li><a href="HalteresSeusHabitos.html" target="_blank" style="font-family: stoke">Apresentação</a></li>
+                    <li><a href="planos.html" target="_blank" style="font-family: stoke">Planos</a></li>
+                    <li><a href="Equipamentos.html" target="_blank" style="font-family: stoke">Equipamentos</a></li>
+                    <li><a href="Inscricao.html" target="_blank" style="font-family: stoke">Inscrição</a></li>
+                </ol>
             </td>
         </tr>
     </table>
 
     <table class="tabEquip">
         <tr class="tabTitulo">
-            <th colspan="3">Alguns dos Nossos Equipamentos</th>
+            <th colspan="3" style="font-family: Stoke">Alguns dos Nossos Equipamentos</th>
         </tr>
         
         <tr class="tabSubTit">
-            <th  rowspan="2" class="imgCel"><img src="/Imagens/CadeiraExtensora.png" alt="Cadeira Extensora"></th>
-            <th colspan="2" class="exercicio">Cadeira Extensora</th>
+            <th  rowspan="2"><img class="imgCel" src="/Imagens/CadeiraExtensora.png" alt="Cadeira Extensora"></th>
+            <th colspan="2" class="exercicio"  style="font-family: Stoke">Cadeira Extensora</th>
         </tr>
         <tr>
-            <td colspan="2">O principal movimento articular realizado na cadeira extensora é a extensão de joelho, portanto o quadríceps (vasto lateral, vasto medial, vasto intermédio e reto femoral) são os principais músculos trabalhados durante o exercício. <a href="https://treinomestre.com.br/cadeira-extensora-como-potencializar-os-resultados-4-dicas-importantes/">[fonte]</a></td>
+            <td colspan="2" style="font-family: Stoke">O principal movimento articular realizado na cadeira extensora é a extensão de joelho, portanto o quadríceps (vasto lateral, vasto medial, vasto intermédio e reto femoral) são os principais músculos trabalhados durante o exercício. <a href="https://treinomestre.com.br/cadeira-extensora-como-potencializar-os-resultados-4-dicas-importantes/">[fonte]</a></td>
         </tr>
         
         <tr class="tabSubTit">
-            <th colspan="2" class="exercicio">Supino Vertical</th>
-            <th rowspan="2" class="imgCel"><img src="/Imagens/SupinoVertical.png" alt="Supino Vertical"></th>
+            <th colspan="2" class="exercicio" style="font-family: Stoke">Supino Vertical</th>
+            <th rowspan="2"><img  class="imgCel" src="/Imagens/SupinoVertical.png" alt="Supino Vertical"></th>
         </tr>
         <tr>
-            <td colspan="2">O supino vertical é um exercício popular e eficaz para desenvolver força, tamanho e definição nos músculos da parte superior do corpo. Ao usar uma máquina de peso guiada, este exercício oferece uma maneira acessível e controlada de direcionar os músculos do peito, ombros e tríceps. <a href="https://www.academiacentralfitness.com.br/post/supino-m%C3%A1quina-como-fazer-benef%C3%ADcios-e-varia%C3%A7%C3%B5es">[fonte]</a></td>
+            <td colspan="2" style="font-family: Stoke">O supino vertical é um exercício popular e eficaz para desenvolver força, tamanho e definição nos músculos da parte superior do corpo. Ao usar uma máquina de peso guiada, este exercício oferece uma maneira acessível e controlada de direcionar os músculos do peito, ombros e tríceps. <a href="https://www.academiacentralfitness.com.br/post/supino-m%C3%A1quina-como-fazer-benef%C3%ADcios-e-varia%C3%A7%C3%B5es">[fonte]</a></td>
         </tr>
 
         <tr class="tabSubTit">
-            <th rowspan="2" class="imgCel"><img src="/Imagens/RemadaBaixa.png" alt="Remada Baixa de Triângulo"></td>
-            <th colspan="2" class="exercicio">Remada Baixa de Triângulo</th>
+            <th rowspan="2"><img class="imgCel" src="/Imagens/RemadaBaixa.png" alt="Remada Baixa de Triângulo"></th>
+            <th colspan="2" class="exercicio" style="font-family: Stoke">Remada Baixa de Triângulo</th>
         </tr>
         <tr>
-            <td colspan="2">A Remada Baixa é um exercício de máquina para costas feito sentado no banco usando a barra triângulo. A Remada trabalha intensamente músculos como o lombar, latíssimo do dorso, trapézio, deltóide posterior e até mesmo o braquiorradial. <a href="https://www.hipertrofia.org/blog/2018/03/24/remada-baixa/">[fonte]</a></td>
+            <td colspan="2" style="font-family: Stoke">A Remada Baixa é um exercício de máquina para costas feito sentado no banco usando a barra triângulo. A Remada trabalha intensamente músculos como o lombar, latíssimo do dorso, trapézio, deltóide posterior e até mesmo o braquiorradial. <a href="https://www.hipertrofia.org/blog/2018/03/24/remada-baixa/">[fonte]</a></td>
         </tr>
     </table>
 </body>

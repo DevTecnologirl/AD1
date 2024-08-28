@@ -3,18 +3,191 @@
 <head>
     <meta charset="UTF-8">
     <title>Halteres Seus Hábitos</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Ubuntu:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Stoke:wght@400;700&display=swap">
+<style>
+    body, p {
+    background-color: #DDCC55;
+    color: #000000;
+    font-family: 'Stoke', 'Lucida Bright', 'Liberation', serif;
+}
+
+.ender, .referencia a {
+    font-family: 'Karla', 'Verdana', 'Ubuntu', sans-serif;
+}
+
+table {
+    width: 100%;
+    height: 100vh;
+    border-collapse: collapse;
+}
+
+td {
+    vertical-align: top;
+    padding: 0;
+}
+
+hr {
+    width: 320px;
+    border: 1px solid #000000;
+    margin: 0 auto;
+}
+
+.referencia {
+    padding: 1;
+}
+
+.linha {
+    margin-left: 10px;
+    margin-top: -30px;
+}
+
+li {
+    font-family: "Verdana", "Ubuntu", sans-serif;
+    margin-bottom: 10px;
+}
+
+a {
+    color: #222222;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #222222;
+}
+
+address {
+    font-style: normal;
+    font-family: "sans-serif";
+}
+
+.frase {
+    margin-right: 100px;
+}
+
+.ender {
+    text-align: right;
+    line-height: 140%;
+    font-size: 14px;
+    font-family: "Karla";
+}
+
+.imgLogo {
+    border-radius: 3px;
+}
+
+.apres {
+    align-items: center;
+    font-size: 16px;
+}
+
+.tabela-planos {
+    background-color: #EEEEBB;
+    border: 3px solid #202020;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width: 350px;
+    color: #202020;
+    font-size: 12px;
+    padding: 10px 10px 10px 30px;
+    align-items: center;
+}
+
+.tabela-incricao {
+    background-color: #EEEEBB;
+    border: 3px solid #202020;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width: 500px;
+    color: #202020;
+    font-size: 12px;
+    padding: 10px 10px 10px 30px;
+    align-items: center;
+}
+
+.tabela-planos h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 0;
+    color: #CC0000;
+}
+
+.tabela-planos ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.tabela-planos li {
+    margin-bottom: 10px;
+}
+
+.tabela-planos p {
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.mensalidade {
+    color: #CC0000;
+}
+
+.matricula {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #202020;
+}
+
+.preco {
+    color: #CC0000;
+}
+
+/* Estilos para a seção de inscrição */
+fieldset {
+    border: 1px solid #000;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+}
+
+input[type="text"], 
+input[type="number"], 
+input[type="month"],
+select {
+    width: calc(100% - 100px);
+}
+
+.colunaPlanos{
+    width: 50%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #EEEEBB;
+    border: 2px solid #202020;
+}
+</style>
 </head>
 <body>
     <table>
         <tr>
             <td colspan="2"><img src="/Imagens/HalteresSeusHabitosTopo.png" alt="Halteres Seus Hábitos" class="imgLogo"></td>
             <td colspan="2">
-                <address class="ender">
+                <address class="ender" style="font-family: Karla; font-style: italic;">
                     Estrada do Puxa Ferro, 12<br>
                     Tel: (21) 91234-5678<br>
-                    <a href="mailto:contato@halterhabit.com.br">contato@halterhabit.com.br</a>
+                    <a href="mailto:contato@halterhabit.com.br" style="font-style: italic;">contato@halterhabit.com.br</a>
                 </address>
             </td>
         </tr>
@@ -24,39 +197,39 @@
         
         <tr>
             <td width="20%">
-                <ul class="referencia" style="list-style-type:square;">
-                    <li><a href="HalteresSeusHabitos.html" target="_blank">Apresentação</a></li>
-                    <li ><a href="planos.html" target="_blank">Planos</a></li> 
-                    <li><a href="Equipamentos.html" target="_blank">Equipamentos</a></li>
-                    <li><a href="Inscricao.html" target="_blank">Inscrição</a></li>
-                </ul>
+                <ol class="referencia" style="list-style-type:square;">
+                    <li><a href="HalteresSeusHabitos.html" target="_blank" style="font-family: stoke">Apresentação</a></li>
+                    <li><a href="planos.html" target="_blank" style="font-family: stoke">Planos</a></li>
+                    <li><a href="Equipamentos.html" target="_blank" style="font-family: stoke">Equipamentos</a></li>
+                    <li><a href="Inscricao.html" target="_blank" style="font-family: stoke">Inscrição</a></li>
+                </ol>
             </td>
             <td>
                 <div>
-                    <h2 class="matricula">Planos (<span class="mensalidade">valor mensal</span>)</h2>
+                    <h2 class="matricula" style="font-family: stoke">Planos (<span class="mensalidade">valor mensal</span>)</h2>
                     <div class="tabela-planos">
                         <ol>
-                            <li style="list-style-type:square;">Academia:</li>
+                            <li style="list-style-type:square;font-family: stoke">Academia:</li>
                             <ol type="a">
-                                    <li> Anual <span class="preco">(R$ 180,00)</span></li>
-                                    <li> Semestral <span class="preco">(R$ 220,00)</span></li>
-                                    <li> Mensal <span class="preco">(R$ 260,00)</span></li>
+                                    <li style="font-family: stoke"> Anual (R$<span class="preco"> 180,00</span>)</li>
+                                    <li style="font-family: stoke"> Semestral (R$<span class="preco"> 220,00</span>)</li>
+                                    <li style="font-family: stoke"> Mensal (R$ <span class="preco">260,00</span>)</li>
                             </ol>
                         </ol>
                         <ol>
-                            <li style="list-style-type:square;">Natação (3x na semana):</li>
+                            <li style="list-style-type:square; font-family: stoke">Natação (3x na semana):</li>
                             <ol type="a">
-                                    <li> Anual <span class="preco">(R$ 300,00)</span></li>
-                                    <li> Semestral <span class="preco">(R$ 340,00)</span></li>
-                                    <li> Mensal <span class="preco">(R$ 380,00)</span></li>
+                                    <li style="font-family: stoke"> Anual (R$<span class="preco"> 300,00</span>)</li>
+                                    <li style="font-family: stoke"> Semestral (R$<span class="preco"> 340,00</span>)</li>
+                                    <li style="font-family: stoke"> Mensal (R$<span class="preco"> 380,00</span>)</li>
                             </ol>
                         </ol>
                         <ol>
-                            <li style="list-style-type:square;">Combo (academia + natação):</li>
+                            <li style="list-style-type:square; font-family: stoke">Combo (academia + natação):</li>
                             <ol type="a">
-                                    <li> Anual <span class="preco">(R$ 330,00)</span></li>
-                                    <li> Semestral <span class="preco">(R$ 390,00)</span></li>
-                                    <li> Mensal <span class="preco">(R$ 440,00)</span></li>
+                                    <li style="font-family: stoke"> Anual (R$<span class="preco"> 330,00</span>)</li>
+                                    <li style="font-family: stoke"> Semestral (R$ <span class="preco"> 390,00</span>)</li>
+                                    <li style="font-family: stoke"> Mensal (R$<span class="preco"> 440,00</span>)</li>
                             </ol>
                         </ol>
                           
